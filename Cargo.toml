@@ -1,0 +1,12 @@
+[package]
+name = "lunations"
+version = "0.1.0"
+authors = ["Adam R Bell <a_0x07@protonmail.ch>"]
+edition = "2018"
+repository = "https://github.com/arossbell/lunations"
+homepage = "https://github.com/arossbell/lunations"
+license = "MIT"
+readme = "README.md"
+description = "Lunation Date Calculator"
+
+[dependencies]
