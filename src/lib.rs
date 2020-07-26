@@ -35,3 +35,11 @@ pub fn jd_lunation(jd:f64) -> f64 {
 pub fn lunation_jd(lunation:f64) -> f64 {
     BASE_DAY + (AVG_MONTH * lunation)
 }
+
+pub fn jd_lunation_alt(jd:f64, alt_base_day:f64) -> f64 {
+    (jd - alt_base_day) / AVG_MONTH
+}
+
+pub fn lunation_jd_alt(lunation:f64, alt_base_day:f64) -> f64 {
+    alt_base_day + (AVG_MONTH * lunation)
+}
