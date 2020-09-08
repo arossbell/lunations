@@ -1,4 +1,4 @@
-# Lunation Date Calculator [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/saurvs/astro-rust/blob/master/LICENSE.md)
+# Lunation Date Calculator [![](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/arossbell/lunations/blob/master/LICENSE.md)
 This library is only a couple of functions that are related: something to number lunations (back and forth).
 **It's not hour-precise by itself.** It will land within +/- 6 hours.
 
